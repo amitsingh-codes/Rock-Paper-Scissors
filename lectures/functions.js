@@ -27,3 +27,10 @@ const originals = [1, 2, 3];
 const doubled = originals.map(item => item * 2);
 
 console.log(doubled); // [2, 4, 6]
+
+const textBox = document.querySelector("#textBox");
+const output = document.querySelector("#output");
+
+textBox.addEventListener("keydown", (event) => {
+  output.textContent = `You pressed "${event.key}".`;
+});
