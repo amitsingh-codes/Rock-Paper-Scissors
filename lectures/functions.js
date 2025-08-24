@@ -34,3 +34,5 @@ const output = document.querySelector("#output");
 textBox.addEventListener("keydown", (event) => {
   output.textContent = `You pressed "${event.key}".`;
 });
+
+const textbox = document.querySelector("#textBox");
