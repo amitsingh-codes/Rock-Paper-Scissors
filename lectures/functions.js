@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function favoriteAnimal(animal) {
     return animal + " is my favorite animal!"
 }
@@ -22,6 +21,8 @@ console.log(madeAString);
 // textBox.addEventListener("keydown", function (event) {
 //   console.log(`You pressed "${event.key}".`);
 // });
+
+let car = "SUV"
 
 const originals = [1, 2, 3];
 
