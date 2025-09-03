@@ -38,3 +38,14 @@ textBox.addEventListener("keydown", (event) => {
 });
 
 const textbox = document.querySelector("#textBox");
+
+let say_hi = function(){
+  alert("Hello! User")
+}
+// say_hi()
+
+function capitalize(string){
+  console.log(string[0].toUpperCase()+string.slice(1).toLowerCase());
+}
+
+capitalize("aMit")
